@@ -21,7 +21,6 @@ public class ConvexHull {
         if (area > 0) return 1; // counter-clockwise
         return 0; // collinear
     }
-    
   
     static Point getMinY(Collection<? extends Point> points) {
         Iterator<? extends Point> it = points.iterator();

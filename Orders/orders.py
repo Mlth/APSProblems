@@ -1,9 +1,11 @@
 from collections import Counter
 from copy import copy
 
-input()
+#Solution takes inspiration from: https://github.com/chadfraser/Kattis-solutions/blob/master/(Py3)-Restaurant-Orders.py#L51
+
+costsAmount = input()
 costs = [int(c) for c in input().split()]
-input()
+orderAmount = input()
 orders = [int(o) for o in input().split()]
 
 maxOrder = max(orders)
