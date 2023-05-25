@@ -97,7 +97,6 @@ public class ConvexHull {
         Point p = stack.pop();
 
    
-        // depending on how the algo should handle collinear points - this outputs the first point only
         if (clockWiseTurn(stack.peek(), p, minYPoint) > 0) {
             stack.push(p); // put it back, everything is fine
         
